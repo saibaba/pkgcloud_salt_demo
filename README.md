@@ -30,17 +30,18 @@ npm install pkgcloud
 Sample
 ======
 
-Copy mainsalt.js to this directory
+Copy sdemo.js, top.sls, and webserver.sls to this directory
 
 Help
 ----
 
-nodejs mainsalt.js
+nodejs sdemo.js
 
 Example Run
 ===========
 
 The demo script creates a VM, and installs apache2 by injecting salt config and then running masterless salt minion command inside VM.
+
 Delete VM from your account later to avoid charges.
 
 1) Create a public/private key pair (make sure permissons are 600 for private key file).
