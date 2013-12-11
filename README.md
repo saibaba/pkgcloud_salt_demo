@@ -1,7 +1,17 @@
+Intro
+=====
+
+This sample uses pkgcloud SDK to create a VM and inject salt state files that include instructuns to install apache2. 
+Once the VM is active, it installs salt using SSH. It then executes salt in masterless mode on the VM which installs apache2.
+
 Install node.js stuff
 =====================
 apt-get install nodejs
+
 apt-get install npm
+
+Setup
+=====
 
 Create a directory, say demo and change into this directory.
 
