@@ -50,7 +50,7 @@ Delete VM from your account later to avoid charges.
 
 2) Run demo app
 
-   nodejs mainsalt.js demo_server  demo_key <user> <apikey>  ORD
+   nodejs sdemo.js demo_server  demo_key <user> <apikey>  ORD
 
    Note the IP of VM created.
 
