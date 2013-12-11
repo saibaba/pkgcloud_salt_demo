@@ -3,6 +3,7 @@ Intro
 
 This sample uses pkgcloud SDK to create a VM and inject salt state files that include instructuns to install apache2. 
 Once the VM is active, it installs salt using SSH. It then executes salt in masterless mode on the VM which installs apache2.
+It also edits the index.html to include the server name in the welcome page.
 
 Install node.js stuff
 =====================
@@ -58,3 +59,6 @@ Delete VM from your account later to avoid charges.
 3) Verify install
 
    curl -X GET http://IP/
+
+   You should see the name of the server in the welcome page returned.
+
